@@ -1,0 +1,545 @@
+.green_button {
+  background: #2EC986;
+  border-radius: 26px;
+  width: 140px;
+  color: white;
+  padding: 7px 22px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.blue_button {
+  background: #3180fb;
+  border-radius: 26px;
+  padding: 7px 22px;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.page_down_button_centered img:hover {
+  transform: translateY(5px);
+  transition: transform 300ms;
+}
+
+.blue_heading {
+  color: #3180fb;
+}
+
+.light_blue_heading {
+  color: #319BFB;
+}
+
+.top_about_us_heading {
+  font-weight: 500;
+  text-align: center;
+  margin: 25vh auto 20px;
+  font-size: 28px;
+}
+
+.top_about_us_heading_text {
+  margin: 0 auto;;
+  font-size: 38px;
+  font-weight: 300;
+  overflow: hidden;
+  text-align: center;
+  max-width: 721px;
+}
+
+.pixoul_section_heading {
+  margin: 117px auto 60px auto;
+}
+
+.service-title-background {
+  margin: 0 auto;
+  max-width: 974px;
+  width: 100%;
+  background-image: url('../../images/service_background.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pixoul_section_heading h1 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto 17px auto; 
+  opacity: 0;
+}
+
+.pixoul_section_heading h2 {
+  max-width: 1035px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.pixoul_grid_column {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto 117px auto;
+}
+
+.pixoul_grid_column a {
+  width: 100%;
+}
+
+.pixoul_grid_column_item {
+  color: #374050;
+  position: relative;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  padding: 30px 71px 30px 44px;
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+
+.pixoul_grid_column_item-content {
+  flex: 1;
+  margin: 0 20px 0 79px;
+  min-width: 300px;
+}
+
+.pixoul_grid_column_item:hover {
+  box-shadow: 0 9px 12px 1px rgba(0, 0, 0, 0.14), 0 3px 16px 1px rgba(0, 0, 0, 0.12), 0 5px 6px -3px rgba(0, 0, 0, 0.2);
+}
+
+.pixoul_four_grid_item_img_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixoul_four_grid_item_img_container img {
+  width: 95px;
+}
+
+.pixoul_four_grid_item_img_container img:first-child {
+  margin: 20px 0 20px 0;
+}
+
+.pixoul_four_grid_item_img_container img:last-child {
+  display: none;
+}
+
+.pixoul_grid_column_item:hover .pixoul_four_grid_item_img_container img:last-child {
+  display: block!important;
+}
+
+.pixoul_grid_column_item:hover .pixoul_four_grid_item_img_container img:first-child {
+  margin: 0 0 20px 0;
+}
+
+.pixoul_grid_column_item h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0 auto 18px;
+}
+
+.pixoul_grid_column_item h3 {
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+}
+
+.pixoul_grid_column_item .arrow {
+  transform: rotate(-90deg);
+}
+
+.services-map-row {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services-map-row > div {
+  width: 270px;
+  margin-right: 10px;
+}
+
+.services-map-row > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-map-row:last-child {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.example-img {
+  box-shadow: 0 9px 12px 1px rgba(0, 0, 0, 0.14), 0 3px 16px 2px rgba(0, 0, 0, 0.12), 0 5px 6px -3px rgba(0, 0, 0, 0.2);
+  width: 270px;
+  height: 149.4px;
+  border-radius: 5px;
+  object-fit: cover;
+  transform: scale(0);
+}
+
+#example-1 {
+  margin-top: 30px;
+}
+
+#example-3-1, #example-3-2 {
+  width: 130px;
+  height: 231px;
+}
+
+.alex_devices_img {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 6rem;
+}
+
+.pixoul_adjustable_columns_item h3 {
+  font-weight: 500;
+  font-size: 2.2rem;
+  margin: 0 0 10px;
+  line-height: 1.3;
+}
+
+.pixoul_adjustable_columns_item h4 {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.service-button-section {
+  margin-top: 126px;
+}
+
+.services-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.carousel-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 74px;
+}
+
+.carousel-row .blue_button {
+  margin: 0 2% 0 5%;
+  min-width: 156px;
+}
+
+.carousel-list-row {
+  transform: scale(0);
+  width: 80%;
+  text-align: center;
+}
+
+.services-row h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.services-row h2 {
+  font-size: 20px;
+  font-weight: 300;
+  width: 0;
+  height: 150px;
+  overflow: hidden;
+}
+
+.label-link {
+  margin-right: 50px;
+}
+
+.label-link a {
+  text-decoration: none;
+  color: #3180FB;
+}
+
+@keyframes servicePageBlueLine {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+a:hover + .blue_line_under_label {
+  animation-name: servicePageBlueLine;
+}
+
+.blue_line_under_label {
+	background: #3180FB;
+	width: 0px;
+  height: 2px;
+  border-radius: 4px;
+	border-radius: 15px;
+  animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.selected-label {
+  width: 100%;
+}
+
+.services-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+
+@keyframes textAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.services-title-animation-enter {
+  animation-name: textAnimation;
+  animation-delay: .05s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.services-text-animation-enter {
+  animation-name: textAnimation;
+  animation-delay: .55s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes imageAnimation {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.services-image-animation-enter {
+  animation-name: imageAnimation;
+  animation-delay: .2s;
+  animation-duration: .8s;
+  animation-fill-mode: both;
+}
+
+.services-image-animation-enter-done {
+  transform: scale(1)!important;
+}
+
+.services-title-animation-enter-done, .services-text-animation-enter-done {
+  opacity: 1!important;
+}
+
+@keyframes aboutPageButton {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.services-page-button-animation {
+  animation-name: aboutPageButton;
+  animation-duration: 1s;
+  animation-delay: .8s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+/* Strategy, tech, design subpages */
+.full_width {
+  width: 100%;
+}
+/* --Circle checkbox section */
+.pixoul_list_with_checkboxes_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto 117px auto;
+}
+.pixoul_list_with_checkboxes_row {
+  color: #374050;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 30px 71px 30px 44px;
+}
+.pixoul_list_with_checkboxes_row:hover .pixoul_list_with_checkboxes_row_right_side {
+  background-image: url('../../images/checkmark-circle-green.svg');
+}
+.pixoul_list_with_checkboxes_row_left_side {}
+.pixoul_list_with_checkboxes_row_left_side h2 {}
+.pixoul_list_with_checkboxes_row_left_side p {
+  font-weight: 200;
+  padding-right: 10%;
+}
+.pixoul_list_with_checkboxes_row_right_side {
+  min-width: 100px;
+  min-height: 100px;
+  background-image: url('../../images/checkmark-circle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pixoul_list_with_checkboxes_row_right_side img {}
+
+/* --Capabilities section */
+.pixoul_capabilities {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 12vh;
+}
+.pixoul_six_capabilities_img_container {
+  width: 350px;
+  margin-left: auto;
+  margin-right: 45px;
+}
+.pixoul_six_capabilities_img_container img {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.pixoul_six_capabilities_grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin-right: auto;
+}
+.pixoul_six_capabilities_grid_item {
+  width: 250px;
+  margin: 5px 20px;
+}
+.pixoul_six_capabilities_grid_item h3 {}
+.pixoul_six_capabilities_grid_item p {
+  font-weight: 200;
+}
+
+/* --Technologies we leverage section */
+.pixoul_tech_logos_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+}
+.pixoul_tech_logos_img_container {
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+}
+
+.label-animation-exit-done {
+  height: auto;
+}
+
+
+@media (max-width: 1199px) {
+  h1, h2, .pixoul_four_grid_item {
+      opacity: 1!important;
+  }
+  .example-img, .carousel-list-row {
+      transform: scale(1);
+  }
+  .carousel-row {
+    flex-wrap: wrap;
+  }
+  .carousel-list-row {
+    width: 100%;
+  }
+  .pixoul_grid_column_item-content {
+    margin: 0 10px 0 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pixoul_grid_column {
+    width: 100%;
+  }
+  .pixoul_adjustable_column {
+      padding: 0;
+  }
+  .pixoul_adjustable_columns_item {
+      margin: 5px;
+  }
+  .top_about_us_heading {
+    font-size: 25px;
+  }
+
+  .top_about_us_heading_text {
+      white-space: normal;
+      font-size: 1.6em;
+  }
+
+  .services-row {
+    flex-wrap: wrap;
+  }
+
+  .services-row > div {
+    width: 100%!important;
+  }
+  .services-map-row:last-child {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .service-button-section {
+    margin: 30px auto;
+    text-align: center
+  }
+  .pixoul_grid_column_item {
+    padding: 20px 10px 20px 10px;
+    justify-content: center;
+  }
+
+  .pixoul_grid_column_item-content {
+    margin: 0 10px 0 10px;
+  }
+
+  /* Strategy, tech, design subpages */
+  /* --Circle checkbox section */
+  .pixoul_list_with_checkboxes_row {
+    padding: 0 1.3em;
+  }
+  .pixoul_list_with_checkboxes_row_left_side p {
+    padding: 0;
+  }
+  .pixoul_list_with_checkboxes_row_right_side {
+    display: none;
+  }
+  /* --Capabilities section */
+  .pixoul_six_capabilities_img_container {
+    display: none;
+  }
+  .pixoul_six_capabilities_grid {
+    width: 100vw;
+    justify-content: center;
+  }
+  /* --Technologies we leverage section */
+  .pixoul_tech_logos_container {
+    width: 100%;
+  }
+}

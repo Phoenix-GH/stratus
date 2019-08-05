@@ -1,0 +1,153 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@font-face {
+	font-family: ikarosFont;
+	src: url(fonts/Ikaros-Regular.otf);
+}
+
+@font-face {
+	font-family: avenirFont;
+	src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+input {
+	background-color: transparent;
+}
+
+.section {
+	background-color: white;
+}
+
+.main {
+	max-height: 100%;
+}
+
+.main-exit-animation-exit-active {
+	transform: scale(1) translateX(0)!important;
+	transition: 300ms;
+	overflow: visible;
+}
+
+.main-exit-animation-exit {
+	max-height: 100%;
+}
+
+.main-exit-animation-enter {
+	transform: scale(.8) translateX(-300px)!important;
+}
+
+.main-exit-animation-enter-done {
+	transform-origin: center;
+	transform: scale(.8) translateX(-300px)!important;
+	overflow: hidden;
+	max-height: 100vh;
+	transition: 300ms;
+}
+
+.hand-pointer {
+	cursor: pointer;
+}
+
+.green_heading {
+  color: #2EC986;
+}
+
+.grey-background {
+  background-color: #f9f9f9!important;
+}
+
+.no-pointer {
+	pointer-events: none;
+}
+
+.section .fp-tableCell {
+	vertical-align: baseline;
+}
+
+a {
+	text-decoration: none;
+}
+/* Animation */
+
+/* Responsive */
+
+@media (max-width: 1199px) {
+	.main__exited {
+		transform: scale(.8) translateX(-350px)!important;
+	}
+}
+
+@media (max-width: 767px) {
+	.main__exited {
+		transform: scale(.8) translateX(-360px)!important;
+	}	
+}
+
+/* animations */
+
+@keyframes stuckSlideShownH4 {
+	from {
+		width: 0;
+	}
+
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes stuckSlideHiddenH4 {
+	from {
+		width: 100%;
+	}
+
+	to {
+		width: 0;
+	}
+}
+
+@keyframes stuckSlideFadeIn {
+	from {
+			opacity: 0;
+	}
+
+	to {
+			opacity: 1;
+	}
+}
+
+@keyframes stuckSlideFadeOut {
+	from {
+			opacity: 1;
+	}
+
+	to {
+			opacity: 0;
+	}
+}

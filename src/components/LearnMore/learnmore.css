@@ -1,0 +1,70 @@
+.learn-more {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  transition: opacity .5s;
+  animation-name: anchorLinkParallax;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  transform: translateZ(20px);
+  text-decoration: none;
+}
+
+.learn-more > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
+  margin-left: 11px;
+}
+
+.learn-more > div span {
+  height: 21px;
+  font-size: 15px;
+  margin-bottom: 3px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  color: #374050;
+}
+
+.separator {
+  width: 147px;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: #374050;
+}
+
+.more-img {
+  transition: 0.2s;
+}
+
+.separator {
+  transition: 1s;
+}
+
+.learn-more:hover .more-img {
+  transform: rotate(90deg);
+}
+
+.learn-more:hover .separator {
+  transform: rotateY(180deg);
+}
+
+@keyframes anchorLinkParallax {
+  from {
+    transform: translate3d(0, -100px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+@media (max-width: 1199px) {
+	.learn-more {
+    display: none;
+	}
+}

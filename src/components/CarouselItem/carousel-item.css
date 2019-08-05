@@ -1,0 +1,38 @@
+.carousel-wrapper {
+  padding: 30px 30px 30px 30px;
+}
+
+.carousel-item {
+  box-shadow: 0 9px 12px 1px rgba(0, 0, 0, 0.14), 0 3px 16px 1px rgba(0, 0, 0, 0.12), 0 5px 6px -3px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 50px 48px;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.carousel-item h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #2ec986;
+  margin: 0;
+}
+
+.carousel-item p {
+  margin-top: 50px;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+  font-weight: 300;
+  flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-wrapper {
+    padding: 30px 10px;
+  }
+  .slick-slide {
+  
+  }
+}

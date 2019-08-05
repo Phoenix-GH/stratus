@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M31,-2.77555756e-17 C13.8879996,-2.77555756e-17 -2.77555756e-17,13.8879996 -2.77555756e-17,31 C-2.77555756e-17,48.1119985 13.8879996,62 31,62 C48.1119985,62 62,48.1119985 62,31 C62,13.8879996 48.1119985,-2.77555756e-17 31,-2.77555756e-17 Z M24.3571429,46 L9,30.6449136 L13.3307143,26.3147793 L24.3571429,37.3090211 L47.6692857,14 L52,18.3608445 L24.3571429,46 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services_Strategy" transform="translate(-1252.000000, -693.000000)">
+            <g id="StrategyIntro">
+                <g id="ic_check_circle_24px" transform="translate(1252.000000, 693.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#959B9E" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

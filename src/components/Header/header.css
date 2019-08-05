@@ -1,0 +1,133 @@
+.header {
+  position: fixed;
+  padding-left: 38px;
+  padding-right: 41px;
+  top: 44px;
+  z-index: 1;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  left: 0;
+  right: 0;
+  transition: 300ms;
+}
+
+.white-header {
+  top: 0;
+  padding: 22px 41px 22px 38px;
+}
+
+.logo {
+  margin-right: auto;
+  color: black;
+  font-size: 20px;
+}
+
+.contactus-button {
+  border-radius: 26px;
+  background-color: #3180fb;
+  width: 120px;
+  height: 36px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 56px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactus-button:hover {
+  opacity: 0.85;
+}
+
+.contactus-button span:after {
+  /* content: "";
+  position: relative;
+  width: 0;
+  height: 1px;
+  display: block;
+  z-index: 100;
+  background-color: #fff;
+  transition: .3s ease-out all;
+  left: 50%;
+  transform: translateX(-50%); */
+  
+}
+
+.contactus-button span:hover:after {
+  width: 100%;
+}
+
+.hamburger-button {
+  width: 39px;
+  height: 28px;
+  padding: 0;
+}
+
+.hamburger-button div {
+  position: relative;
+  width: 100%;
+}
+
+.hamburger-button div span {
+  left: 0;
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #374050;
+  transition: .3s;
+  overflow: hidden;
+  border-radius: 1.5px;
+}
+
+.hamburger-button:hover div span:before {
+  transform: translateX(39px);
+}
+
+.hamburger-button div span:before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 3px;
+  background: white;
+  transition: .6s;
+  transform: translateX(-3px);
+}
+
+.hamburger-button div span#span-2:before {
+  transition: .8s;
+}
+
+.hamburger-button div span#span-3:before {
+  transition: 1s;
+}
+
+#span-2 {
+  margin-top: 7px;
+}
+
+#span-3 {
+  margin-top: 7px;
+  width: 29px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+@media (max-width: 1199px) {
+  .header {
+    position: absolute;
+  }
+}
+
+@media (max-width: 767px) {
+  .contactus-button {
+    display: none;
+  }
+}

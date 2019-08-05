@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="83px" viewBox="0 0 70 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Android_robot</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services_Tech" transform="translate(-391.000000, -2262.000000)" fill-rule="nonzero">
+            <g id="Capabilities" transform="translate(0.000000, 1642.000000)">
+                <g id="logos" transform="translate(379.000000, 438.000000)">
+                    <g id="Android_robot" transform="translate(13.000000, 183.000000)">
+                        <g id="Group">
+                            <g id="b-link" transform="translate(12.811594, 5.927711)" fill="#A4C639" stroke="#FFFFFF" stroke-width="3.43109851">
+                                <g id="b">
+                                    <ellipse id="Oval" cx="21.6811594" cy="19.7590361" rx="21.6811594" ry="19.7590361"></ellipse>
+                                    <rect id="Rectangle" x="0" y="14.8192771" width="43.3623188" height="43.4698795" rx="5.24195606"></rect>
+                                </g>
+                            </g>
+                            <g id="a-link" transform="translate(42.869565, 41.000000) scale(-1, 1) translate(-42.869565, -41.000000) translate(17.739130, 0.000000)" fill="#959B9E" stroke="#FFFFFF" stroke-width="1.71554926">
+                                <g id="a">
+                                    <path d="M42.9578209,-0.526779887 L42.9580966,-0.526779637 C43.8123571,-0.526005347 44.5046785,0.166316837 44.5054519,1.02057728 L44.5211951,18.4093946 C44.5219668,19.2618088 43.8315742,19.9534528 42.9791599,19.9542245 C42.9782278,19.9542253 42.9772957,19.9542253 42.9763636,19.9542245 L42.9760879,19.9542242 C42.1218274,19.95345 41.429506,19.2611278 41.4287326,18.4068673 L41.4129894,1.01805003 C41.4122176,0.165635768 42.1026103,-0.526008146 42.9550246,-0.526779889 C42.9559567,-0.526780733 42.9568888,-0.526780732 42.9578209,-0.526779887 Z" id="Rectangle" transform="translate(42.967092, 9.713722) rotate(29.000000) translate(-42.967092, -9.713722) "></path>
+                                    <rect id="c" x="0.413499544" y="26.6746988" width="11.826087" height="31.6144578" rx="5.71849752"></rect>
+                                    <g id="c-link" transform="translate(20.695652, 49.397590)">
+                                        <rect id="c" x="0.413499544" y="0" width="11.826087" height="31.6144578" rx="5.71849752"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="a" fill="#959B9E" stroke="#FFFFFF" stroke-width="1.71554926">
+                                <path d="M42.7627668,-0.526779887 L42.7630425,-0.526779637 C43.617303,-0.526005347 44.3096245,0.166316837 44.3103979,1.02057728 L44.326141,18.4093946 C44.3269128,19.2618088 43.6365201,19.9534528 42.7841059,19.9542245 C42.7831738,19.9542253 42.7822416,19.9542253 42.7813095,19.9542245 L42.7810338,19.9542242 C41.9267734,19.95345 41.2344519,19.2611278 41.2336785,18.4068673 L41.2179353,1.01805003 C41.2171636,0.165635768 41.9075563,-0.526008146 42.7599705,-0.526779889 C42.7609026,-0.526780733 42.7618347,-0.526780732 42.7627668,-0.526779887 Z" id="Rectangle" transform="translate(42.772038, 9.713722) rotate(29.000000) translate(-42.772038, -9.713722) "></path>
+                                <rect id="c" x="0" y="26.6746988" width="11.826087" height="31.6144578" rx="5.71849752"></rect>
+                                <g id="c-link" transform="translate(20.695652, 49.397590)">
+                                    <rect id="c" x="0" y="0" width="11.826087" height="31.6144578" rx="5.71849752"></rect>
+                                </g>
+                            </g>
+                            <g id="b" transform="translate(12.811594, 5.927711)" fill="#959B9E">
+                                <ellipse id="Oval" cx="21.6811594" cy="20.253012" rx="21.6811594" ry="20.253012"></ellipse>
+                                <rect id="Rectangle" x="0" y="14.8192771" width="43.3623188" height="43.4698795" rx="5.24195606"></rect>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(11.826087, 15.807229)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.71554926">
+                            <path d="M0,11.9054217 L45.3333333,11.9054217" id="Path"></path>
+                            <ellipse id="Oval" cx="12.8115942" cy="0.987951807" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" cx="32.5217391" cy="0.987951807" rx="1" ry="1"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_close_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowOffsetOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="buttonX" transform="translate(-19.000000, -19.000000)" fill="#2EC986" fill-rule="nonzero">
+            <g id="ic_close_24px">
+                <g filter="url(#filter-1)" transform="translate(18.458333, 18.458333)">
+                    <path d="M17.1727083,0.910625 L17.1727083,0.910625 C16.669784,0.4077007 15.8543826,0.4077007 15.3514583,0.910625 L9.04166667,7.22041667 L2.731875,0.910625 C2.2289507,0.4077007 1.4135493,0.4077007 0.910625,0.910625 L0.910625,0.910625 C0.4077007,1.4135493 0.4077007,2.2289507 0.910625,2.731875 L7.22041667,9.04166667 L0.910625,15.3514583 C0.4077007,15.8543826 0.4077007,16.669784 0.910625,17.1727083 L0.910625,17.1727083 C1.4135493,17.6756326 2.2289507,17.6756326 2.731875,17.1727083 L9.04166667,10.8629167 L15.3514583,17.1727083 C15.8543826,17.6756326 16.669784,17.6756326 17.1727083,17.1727083 L17.1727083,17.1727083 C17.6756326,16.669784 17.6756326,15.8543826 17.1727083,15.3514583 L10.8629167,9.04166667 L17.1727083,2.731875 C17.6756326,2.2289507 17.6756326,1.4135493 17.1727083,0.910625 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

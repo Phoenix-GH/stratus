@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,500&display=swap');
+
+.contact_section_container {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-background {
+    right: 0;
+    width: 39.5vw;
+    height: 0;
+    bottom: 0;
+    border-bottom: 100vh solid #f9f9f9;
+    border-left: calc(60vw - 39.5vw) solid transparent;
+    position: absolute;
+}
+
+.contact_section_heading {
+    font-family: 'Poppins', sans-seri;
+    font-weight: 500;
+    font-size: 45px;
+    color: #3180FB;
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 14%;
+    transform: translateX(-50%);
+}
+
+.contact-section {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1168px;
+    width: 90%;
+    display: flex;
+    top: 35%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact_section_form_container {
+    width: calc((100% - 91px) / 2);
+    overflow: hidden;
+}
+
+.contact_section_form_container h2 {
+    font-size: 25px;
+    color: #3180FB;
+    font-weight: 500;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+.contact_section_form_container h3 {
+    font-size: 19px;
+    color: #374050;
+    font-weight: 300;
+    margin-top: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+.contact_section_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.group {
+    width: calc(100% / 2 - 4%);
+    margin: 0 2%;
+    position: relative;
+}
+
+.group_last_child {
+    width: 100%;
+}
+
+.contact_section_form label {
+    position: absolute;
+    top: 7px;
+    font: 200 15px Roboto;
+    cursor: text;
+    transition: 0.2s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact_section_form input {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0 30px;
+    border: none;
+    border-bottom: solid 2px black;
+    font-size: 15px;
+    transition: all 0.3s;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+}
+
+.contact_section_form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #f9f9f9 inset;
+}
+
+.contact_section_form input:focus,
+.contact_section_form input:valid {
+    outline: none;
+    border-bottom: solid 2px #3180fb;
+}
+
+.contact_section_form input:focus~label,
+.contact_section_form input:valid~label {
+    top: -10px;
+    color: #3180fb;
+    font-size: 12px;
+}
+
+.asterix {
+    color: #3180fb;
+}
+
+.contact_form_submit_btn_container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact_form_submit_btn {
+    display: block;
+    margin: 10px auto 0 2%;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #3180fb;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes stuckSlideShownH2 {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: auto;
+    }
+}
+
+@keyframes stuckSlideHiddenH2 {
+    from {
+        height: auto;
+    }
+
+    to {
+        height: 0;
+    }
+}
+
+@keyframes contactsFormToTop {
+    from {
+        bottom: 0;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+@keyframes contactsFormToBottom {
+    from {
+        bottom: inherit;
+        top: 0;
+    }
+
+    to {
+        bottom: 0;
+    }
+}
+
+@keyframes stuckSlideShownSlideDown {
+    from {
+        height: 0;
+        opacity: 0;
+    }
+
+    to {
+        height: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes stuckSlideShownSlideUp {
+    from {
+        height: 100%;
+        opacity: 1;
+    }
+
+    to {
+        height: 0;
+        opacity: 0;
+    }
+}
+
+.contact-title-animation-nodelay-enter {
+    animation-name: stuckSlideShownH2;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.contact-title-animation-enter {
+    animation-name: stuckSlideShownH2;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.contact-title-animation-exit {
+    animation-name: stuckSlideHiddenH2;
+    animation-duration: .6s;
+    animation-fill-mode: both;
+}
+
+.contact-title-animation-enter-done, 
+.contact-title-animation-nodelay-enter-done,
+.contact-title-animation-nodelay-exit-done {
+    height: auto;
+}
+
+.form-animation-container {
+    position: absolute;
+    height: 0;
+    opacity: 0;
+}
+
+.form-slide-animation-nodelay-enter {
+    animation-name: stuckSlideShownSlideDown;
+    animation-delay: .6s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.form-slide-animation-enter {
+    animation-name: stuckSlideShownSlideDown;
+    animation-delay: .6s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.form-slide-animation-exit {
+    animation-name: stuckSlideShownSlideUp;
+    animation-duration: .6s;
+    animation-fill-mode: both;
+}
+
+.form-slide-animation-enter-done,
+.form-slide-animation-nodelay-enter-done,
+.form-slide-animation-nodelay-exit-done
+{
+    height: auto!important;
+    opacity: 1!important;
+}
+
+.contact-subtitle-animation-nodelay-enter {
+    animation-name: stuckSlideFadeIn;
+    animation-delay: .5s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.contact-subtitle-animation-enter {
+	animation-name: stuckSlideFadeIn;
+	animation-delay: .5s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.contact-subtitle-animation-exit {
+	animation-name: stuckSlideFadeOut;
+	animation-duration: .6s;
+	animation-fill-mode: both;
+}
+
+.contact-subtitle-animation-enter-done, 
+.contact-subtitle-animation-nodelay-enter-done,
+.contact-subtitle-animation-nodelay-exit-done {
+	opacity: 1!important;
+}
+
+@media (max-width: 1199px) {
+    .contact_section_form_container h2, .contact_section_form_container h3 {
+        white-space: normal;
+        opacity: 1;
+    }
+    .contact_section_heading {
+       height: auto;
+    }
+
+    .form-animation-container {
+        height: auto;
+        opacity: 1;
+    }
+}
+@media (max-width: 767px) {
+    .contact_section_form_container {
+        height: auto;
+        width: 100%;
+    }
+
+    .group {
+        width: 100%;
+    }
+}

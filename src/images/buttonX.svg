@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="59px" viewBox="0 0 59 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>buttonX</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IkarusDetail" transform="translate(-690.000000, -187.000000)">
+            <g id="TopBar" transform="translate(0.000000, 116.000000)">
+                <g id="Info" transform="translate(619.000000, 73.000000)">
+                    <g id="buttonX" transform="translate(73.000000, 0.000000)">
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="3" cx="27.5" cy="27.5" r="27.5"></circle>
+                        <g id="ic_close_24px" transform="translate(18.458333, 18.458333)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M17.1727083,0.910625 L17.1727083,0.910625 C16.669784,0.4077007 15.8543826,0.4077007 15.3514583,0.910625 L9.04166667,7.22041667 L2.731875,0.910625 C2.2289507,0.4077007 1.4135493,0.4077007 0.910625,0.910625 L0.910625,0.910625 C0.4077007,1.4135493 0.4077007,2.2289507 0.910625,2.731875 L7.22041667,9.04166667 L0.910625,15.3514583 C0.4077007,15.8543826 0.4077007,16.669784 0.910625,17.1727083 L0.910625,17.1727083 C1.4135493,17.6756326 2.2289507,17.6756326 2.731875,17.1727083 L9.04166667,10.8629167 L15.3514583,17.1727083 C15.8543826,17.6756326 16.669784,17.6756326 17.1727083,17.1727083 L17.1727083,17.1727083 C17.6756326,16.669784 17.6756326,15.8543826 17.1727083,15.3514583 L10.8629167,9.04166667 L17.1727083,2.731875 C17.6756326,2.2289507 17.6756326,1.4135493 17.1727083,0.910625 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

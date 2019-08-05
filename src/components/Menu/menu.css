@@ -1,0 +1,141 @@
+.menu-container {
+  right: 0;
+  width: 39.5vw;
+  height: 0;
+  border-bottom: 100vh solid #3180fb;
+  border-left: calc(60vw - 39.5vw) solid transparent;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  min-width: 320px;
+}
+
+.menu {
+  position: absolute;
+  right: 10px;
+  width: 320px;
+  top: 50vh;
+  transform: translateY(-50%);
+  max-height: calc(100vh - 103px);
+  overflow: visible;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item {
+  font-size: 35px;
+  margin-bottom: 22px;
+  display: block;
+  height: 49px;
+}
+
+.menu-contact-section {
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+.menu-contact-section p {
+  margin: 0;
+  line-height: 34px;
+}
+
+.menu-link-section {
+  margin-top: 29px;
+  font-size: 13px;
+}
+
+.menu-contact-button {
+  text-align: center;
+  line-height: 44px;
+}
+
+.menu-contact-button div:hover {
+  opacity: 0.85;
+}
+
+.menu-contact-button div {
+  color:#3180fb!important;
+  font-size: 22px;
+  width: 170px;
+  height: 44px;
+  background-color: white;
+  border-radius: 22px;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 2px rgba(0, 0, 0, 0.14), 0 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.small-menu-item {
+  margin-top: 13px;
+}
+
+.menu-close-button {
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  border-radius: 27.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 2px rgba(0, 0, 0, 0.14), 0 1px 18px 0px rgba(0, 0, 0, 0.12);
+  position: absolute;
+  right: calc(10vw + 300 * 0.8px);
+  top: 50vh;
+  transform: translate(50%, -50%);
+  transition: transform 0.8s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.menu-close-button:hover {
+  transform: scale(1.2) translate(calc(50%/1.2), calc(-50%/1.2));
+}
+
+.button_visible {
+  z-index: 1;
+  opacity: 1;
+  transition: .9s;
+}
+
+@media (max-width: 1199px) {
+  .menu {
+    width: 260px;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu {
+    width: 260px;
+  }
+}
+
+@media (max-height: 767px) {
+  .menu {
+    max-height: calc(100vh - 23px);
+    width: 260px;
+  }
+
+  .menu-item {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .menu-contact-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .menu-contact-button {
+    line-height: 34px;
+  }
+
+  .menu-contact-button div {
+    font-size: 15px;
+    height: 34px;
+  }
+
+  .menu-link-section {
+    margin-top: 20px;
+  }
+}
