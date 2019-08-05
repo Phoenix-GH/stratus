@@ -1,9 +1,7 @@
-import bg01 from "../../images/bg01.png";
-import bg02 from "../../images/bg02.png";
-import bg03 from "../../images/bg03.png";
-import bg04 from "../../images/bg04.png";
-import bg05 from "../../images/bg05.png";
-import bg06 from "../../images/bg06.png";
+import bg01 from "../../images/bg01.jpg";
+import bg02 from "../../images/bg02.jpg";
+import bg03 from "../../images/bg03.jpg";
+import bg04 from "../../images/bg04.jpg";
 
 import iuzeit_white from "../../images/iuzeit-white.svg";
 import stallion_white from "../../images/stallion-white.svg";
@@ -68,8 +66,6 @@ const bgImages = {
   '02': bg02,
   '03': bg03,
   '04': bg04,
-  '05': bg05,
-  '06': bg06,
 };
 
 const fusemapScreens = [
